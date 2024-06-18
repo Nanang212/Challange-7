@@ -1,0 +1,18 @@
+.carousel-item--btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.carousel-item--btn :hover {
+  border: none;
+  background-color: white;
+  color: white;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background-color: white;
+  color: white;
+  margin: 24px 12px;
+}

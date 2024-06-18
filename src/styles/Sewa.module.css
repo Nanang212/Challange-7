@@ -1,0 +1,63 @@
+:root {
+  --primary-color: rgba(13, 40, 166, 1);
+  --secondary-color: rgba(241, 243, 255, 1);
+  --btn-color: rgba(92, 184, 95, 1);
+  --btn-hover: rgba(61, 123, 63, 1);
+  --border-color: rgba(212, 212, 212, 1);
+}
+
+.sewa h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 54px;
+}
+
+.sewa p {
+  padding: 16px 0px 52px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.sewa__width {
+  margin-top: 100px;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  border-radius: 13px;
+  padding: 64px 0;
+}
+
+.sewa__btn {
+  background-color: var(--btn-color);
+  border: none;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 20px;
+  border-radius: 2px;
+}
+
+.sewa__btn:hover {
+  background-color: var(--btn-hover);
+}
+
+@media (max-width: 576px) {
+  .sewa {
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+
+  .sewa h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 36px;
+  }
+
+  .sewa p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 20px;
+  }
+}

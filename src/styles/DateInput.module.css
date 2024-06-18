@@ -1,0 +1,30 @@
+.date__container {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.date {
+  color: #8a8a8a;
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 18px;
+}
+
+.date:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #5cb85f;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url("/images/calendar_input.svg");
+  width: 14px;
+  height: 14px;
+}

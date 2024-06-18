@@ -1,0 +1,83 @@
+:root {
+  --primary-color: rgba(13, 40, 166, 1);
+  --secondary-color: rgba(241, 243, 255, 1);
+  --btn-color: rgba(92, 184, 95, 1);
+  --btn-hover: rgba(61, 123, 63, 1);
+  --border-color: rgba(212, 212, 212, 1);
+}
+
+.card__container {
+  padding: 0 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 24px;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.card__body__model {
+  color: black;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.card__body__price {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.card__body__desc {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.card__body_utils {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.card__btn {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--btn-color);
+  border-radius: 2px;
+  border: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.card__btn:hover {
+  background-color: var(--btn-hover);
+}
+
+@media (max-width: 576px) {
+  .card__container {
+    padding: 0 8px;
+  }
+  .card__image {
+    height: 240px;
+  }
+}

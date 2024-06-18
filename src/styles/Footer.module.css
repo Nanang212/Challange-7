@@ -1,0 +1,49 @@
+.footer {
+  margin-top: 150px;
+}
+
+.footer__alamat {
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer__menu__p {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+}
+.footer__onhover:hover {
+  color: black;
+}
+
+.footer__sosmed > p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer__icon {
+  cursor: pointer;
+}
+
+.footer__copy > p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    margin-top: 58px;
+    margin-bottom: 30px;
+    padding: 0 18px;
+  }
+
+  .footer__copy {
+    margin-top: 10px;
+  }
+}

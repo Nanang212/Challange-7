@@ -1,0 +1,123 @@
+:root {
+  --primary-color: rgba(13, 40, 166, 1);
+  --secondary-color: rgba(241, 243, 255, 1);
+  --btn-color: rgba(92, 184, 95, 1);
+  --btn-hover: rgba(61, 123, 63, 1);
+  --border-color: rgba(212, 212, 212, 1);
+}
+
+.form__container {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 24px 0px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.form__box {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__box__input {
+  position: relative;
+}
+
+.form__select {
+  background-image: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  /* no standardized syntax available, no ie-friendly solution available */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.form__box__input img {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  padding-right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form__box label {
+  font-family: "Rubik", sans-serif;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.form__control,
+.form__select {
+  color: #8a8a8a;
+  width: 200px;
+  height: 36px;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #d0d0d0;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 18px;
+}
+
+.form__select .select__val {
+  color: black;
+}
+
+.form__control:focus,
+.form__select:focus {
+  outline: none;
+  border: 1px solid #5cb85f;
+  box-shadow: none;
+}
+
+.btn__search__car {
+  visibility: hidden;
+  display: block;
+}
+
+.btn__success {
+  padding: 8px 12px;
+  background: #5cb85f;
+  border-radius: 2px;
+  border: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+.btn__success:hover {
+  background-color: var(--btn-hover);
+}
+
+@media (max-width: 576px) {
+  .cars__form,
+  .cars__data {
+    margin: 0 30px;
+  }
+  .form__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

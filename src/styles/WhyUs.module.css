@@ -1,0 +1,74 @@
+:root {
+  --primary-color: rgba(13, 40, 166, 1);
+  --secondary-color: rgba(241, 243, 255, 1);
+  --btn-color: rgba(92, 184, 95, 1);
+  --btn-hover: rgba(61, 123, 63, 1);
+  --border-color: rgba(212, 212, 212, 1);
+}
+
+.whyus {
+  margin-top: 20px;
+}
+
+.whyus h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.whyus > p {
+  padding: 16px 0 36px 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.whyus__card {
+  padding: 20px;
+  color: #000000;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+}
+
+.whyus__card h5 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.whyus__card p {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+@media (max-width: 576px) {
+  .whyus {
+    margin-top: 64px;
+    padding: 0 12px;
+  }
+
+  .whyus h2 {
+    text-align: center;
+  }
+  .whyus > p {
+    text-align: center;
+    padding: 16px 0 16px 0;
+  }
+
+  .whyus__card {
+    padding: 24px;
+    margin: 0 4px;
+    color: #000000;
+  }
+
+  .whyus__card h5 {
+    padding: 18px 0px 10px 0px;
+  }
+
+  .whyus__card p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 20px;
+  }
+}
