@@ -17,7 +17,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { store } from "./store";
 import { Provider } from "react-redux";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, GetCar, NotFound } from "./pages";
+import { Home, GetCar, NotFound} from "./pages";
+import Cars from "./pages/cars";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
@@ -25,7 +26,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
-        <Route path="/cars" element={<GetCar />} />
+        <Route path="/view" element={<GetCar />} />
+        <Route path="/cars" element={<Cars />} />
       </Routes>
     </BrowserRouter>
   </Provider>

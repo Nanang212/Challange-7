@@ -8,5 +8,6 @@ import Faq from "./Faq";
 import Footer from "./Footer";
 import Forms from "./Forms";
 import ListCar from "./ListCar";
+import Header from "./Header";
 
-export { Navbars, Hero, Service, WhyUs, Testimonial, Sewa, Faq, Footer, Forms, ListCar };
+export { Navbars, Hero, Service, WhyUs, Testimonial, Sewa, Faq, Footer, Forms, ListCar, Header };

@@ -21,7 +21,7 @@ export default function Hero({ isLandingPage }) {
               untuk sewa mobil selama 24 jam.
             </p>
             {isLandingPage && (
-              <a href="/cars">
+              <a href="/view">
                 <Buttons>Mulai Sewa Mobil</Buttons>
               </a>
             )}

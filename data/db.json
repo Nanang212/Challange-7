@@ -802,6 +802,14 @@
         "Remote fuel lid release",
         "Traveler/mini trip computer"
       ]
+    },
+    {
+      "id": "5916",
+      "manufacture": "sedannn",
+      "type": "moge",
+      "rentPerDay": "8000000",
+      "available": true,
+      "image": "images/car08.min.jpg"
     }
   ]
 }
